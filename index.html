@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JavaScript </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Todo App</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+
+    <input type="button" value="High" style="width:70px; "onclick="chBackcolor('red');" >
+
+    <input type="button"  value="Meadium" style="width:70px; "onclick="chBackcolor('#ffbf00');">
+
+    <input type="button"  value="Low" style="width:70px; "onclick="chBackcolor('green');">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
